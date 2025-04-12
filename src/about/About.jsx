@@ -12,8 +12,7 @@ export const About = () => {
         </h1>
         <div className="leading-8">
           <p className="w-4/12 text-[20px] mt-5">
-            Short text with details about you, what you do or your professional
-            career. You can add more information on the about page.{" "}
+           17 лет Бишкек +996 700 530 382 
           </p>
         </div>
       </div>
