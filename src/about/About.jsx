@@ -11,9 +11,14 @@ export const About = () => {
           is Alibakiev Hanif
         </h1>
         <div className="leading-8">
+<<<<<<< HEAD
           <p className="w-4/12 text-[20px] mt-5 opacity-75">
             Short text with details about you, what you do or your professional
             career. You can add more information on the about page.{" "}
+=======
+          <p className="w-4/12 text-[20px] mt-5">
+           17 y.o. Bishkek. phone number: +996 700 530 382 
+>>>>>>> 3ed878879e393f1b32a27d0714fc7a1aeed7d21e
           </p>
         </div>
       </div>
