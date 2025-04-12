@@ -4,7 +4,7 @@ import img from "../assets/img/photo_2025-04-12_06-35-51.jpg";
 export const Contact = () => {
   return (
     <div>
-      <div className=" w-11/12 m-auto justify-center flex">
+      <div className=" w-11/12 m-auto justify-center">
         <p className="w-7/12 h-auto">Contact Me</p>
         <div className="flex ">
           <div className=" ">
