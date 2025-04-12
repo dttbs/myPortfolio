@@ -1,11 +1,17 @@
 import React from "react";
 import img from "../assets/img/yellow-bg.png";
+import img1 from "../assets/img/Снимок экрана 2025-04-12 112318.png";
+import img2 from "../assets/img/Снимок экрана 2025-04-12 112344.png";
+import dude from "../assets/img/dude.png";
+import img3 from "../assets/img/Снимок экрана 2025-04-12 112408.png";
+import hahatone from "../assets/img/hahaton.png";
+import plit from "../assets/img/plit.png";
 
 export const About = () => {
   return (
-    <div className="w-11/12 m-auto ">
-      <div className="  ">
-        <p className=" text-4xl text-[#35FDB7] mt-5">Front-End Dev.</p>
+    <div className="w-11/12 mx-auto ">
+      <div className="">
+        <p className="text-4xl text-[#35FDB7] mt-5">Front-End Dev.</p>
         <h1 className="text-5xl font-bold leading-14 gap-5">
           Hello, my name <br />
           is Alibakiev Hanif
@@ -21,9 +27,12 @@ export const About = () => {
         </div>
       </div>
       <div className="flex gap-4 mt-10">
-        <button className="bg-green-400 text-black font-medium py-2 px-6 rounded-lg shadow-sm">
-          Projects
-        </button>
+        <a href="#project">
+          {" "}
+          <button className="  bg-green-400 text-black font-medium py-2 px-6 rounded-lg shadow-sm">
+            Projects
+          </button>
+        </a>
 
         <button className="border border-black text-black font-medium py-2 px-6 rounded-lg shadow-sm">
           LinkedIn
@@ -96,7 +105,10 @@ export const About = () => {
         </section>
       </div>
       <section className="flex flex-col items-center gap-3 mt-24">
-        <p className="text-4xl font-bold w-full flex justify-center">
+        <p
+          id="project"
+          className=" text-4xl font-bold w-full flex justify-center"
+        >
           Projects
         </p>
         <div className="w-45 h-2 rounded-lg bg-[#35FDB7]  "></div>
@@ -111,13 +123,15 @@ export const About = () => {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Quisquam, tempora.
               </p>
-              <button className="border border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-[#35FDB7] transition">
-                View Project
-              </button>
+              <a href="https://dude-shape-beryl.vercel.app/">
+                <button className="border border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-[#35FDB7] transition">
+                  View Project
+                </button>
+              </a>
             </div>
             <div className="md:w-1/2">
               <img
-                src="https://mir-oboev.ua/image/cache/catalog/oboi/542462__6-1000x1000.jpg"
+                src={dude}
                 alt="Project"
                 className="object-cover w-full h-55  "
               />
@@ -134,13 +148,15 @@ export const About = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Molestias, quisquam?
               </p>
-              <button className="border border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-[#35FDB7] transition">
-                View Project
-              </button>
+              <a href="https://hakaton-eta-amber.vercel.app/">
+                <button className="border border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-[#35FDB7] transition">
+                  View Project
+                </button>
+              </a>
             </div>
             <div className="md:w-1/2">
               <img
-                src="https://mir-oboev.ua/image/cache/catalog/oboi/542462__6-1000x1000.jpg"
+                src={hahatone}
                 alt="Project"
                 className="object-cover w-full h-55"
               />
@@ -156,13 +172,15 @@ export const About = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
                 quia.
               </p>
-              <button className="border border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-[#35FDB7] transition">
-                View Project
-              </button>
+              <a href="https://plit99.vercel.app/">
+                <button className="border border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-[#35FDB7] transition">
+                  View Project
+                </button>
+              </a>{" "}
             </div>
             <div className="md:w-1/2">
               <img
-                src="https://mir-oboev.ua/image/cache/catalog/oboi/542462__6-1000x1000.jpg"
+                src={plit}
                 alt="Project"
                 className="object-cover w-full h-55"
               />
