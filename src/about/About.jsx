@@ -12,7 +12,7 @@ export const About = () => {
         </h1>
         <div className="leading-8">
           <p className="w-4/12 text-[20px] mt-5">
-           17 лет Бишкек +996 700 530 382 
+           17 y.o. Bishkek. phone number: +996 700 530 382 
           </p>
         </div>
       </div>
