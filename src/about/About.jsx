@@ -71,7 +71,7 @@ export const About = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                src="https://wproom.ru/wp-content/uploads/2024/01/css.png"
+                src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
                 alt="CSS"
                 className="object-cover w-full h-40 md:h-full"
               />
