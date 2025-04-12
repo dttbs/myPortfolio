@@ -17,12 +17,10 @@ export const About = () => {
           is Alibakiev Hanif
         </h1>
         <div className="leading-8">
-          <p className="w-4/12 text-[20px] mt-5 opacity-75">
-            Short text with details about you, what you do or your professional
-            career. You can add more information on the about page.
-          </p>
-          <p className="w-4/12 text-[20px] mt-5">
-            17 y.o. Bishkek. phone number: +996 700 530 382
+          <p className="w-4/12 text-[20px] mt-5 opacity-75"></p>
+          <p className="opacity-75 w-4/12 text-[20px] mt-5">
+            17 y.o. Bishkek. <br />
+            phone number: +996 700 530 382
           </p>
         </div>
       </div>
@@ -34,15 +32,37 @@ export const About = () => {
           </button>
         </a>
 
-        <button className="border border-black text-black font-medium py-2 px-6 rounded-lg shadow-sm">
-          LinkedIn
-        </button>
+        <a href="https://hopp.bio/alibakievhanif">
+          <button className="border border-black text-black font-medium py-2 px-6 rounded-lg shadow-sm">
+            LinkedIn
+          </button>
+        </a>
       </div>
       <section className="flex flex-col items-center gap-3 mt-24">
         <p className="text-4xl font-bold w-full flex justify-center">Skills</p>
         <div className="w-45 h-2 rounded-lg bg-[#35FDB7]  "></div>
       </section>
       <div className=" flex  gap-10">
+        <section>
+          <div className="flex flex-col md:flex-row h-97 bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
+            <div className="md:w-1/2 p-6 h-72 flex flex-col justify-center">
+              <h2 className="text-2xl font-bold mb-4">HTML</h2>
+              <p className="text-gray-600 mb-6">
+                {" "}
+                is the standard markup language used to create and structure
+                content on the web, such as text, images, links, and other
+                elements.
+              </p>
+            </div>
+            <div className="md:w-1/2">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLBWyEV75SBEIkRXhQf2RbupVBafLrfFxgQ&s"
+                alt="Project"
+                className="object-cover w-full h-55"
+              />
+            </div>
+          </div>
+        </section>
         <section>
           <div className="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
@@ -65,7 +85,7 @@ export const About = () => {
         </section>
 
         <section>
-          <div className="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
+          <div className="flex flex-col md:flex-row h-95 bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
               <h2 className="text-2xl font-bold mb-4">JS</h2>
               <p className="text-gray-600 mb-6">
@@ -79,26 +99,6 @@ export const About = () => {
                 src="https://cdn.coursehunter.net/category/javascript.png"
                 alt="Project"
                 className="object-cover w-full h-full"
-              />
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
-            <div className="md:w-1/2 p-6 flex flex-col justify-center">
-              <h2 className="text-2xl font-bold mb-4">HTML</h2>
-              <p className="text-gray-600 mb-6">
-                {" "}
-                is the standard markup language used to create and structure
-                content on the web, such as text, images, links, and other
-                elements.
-              </p>
-            </div>
-            <div className="md:w-1/2">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLBWyEV75SBEIkRXhQf2RbupVBafLrfFxgQ&s"
-                alt="Project"
-                className="object-cover w-full h-55"
               />
             </div>
           </div>
@@ -117,7 +117,7 @@ export const About = () => {
         <section>
           <div className="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
-              <h2 className="text-2xl font-bold mb-4">Project 1</h2>
+              <h2 className="text-2xl font-bold mb-4">Dude Shape</h2>
               <p className="text-gray-600 mb-6">
                 {" "}
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -142,7 +142,7 @@ export const About = () => {
         <section>
           <div className="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
-              <h2 className="text-2xl font-bold mb-4">Project 2</h2>
+              <h2 className="text-2xl font-bold mb-4">Den Soluk</h2>
               <p className="text-gray-600 mb-6">
                 {" "}
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -166,7 +166,7 @@ export const About = () => {
         <section>
           <div className="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
-              <h2 className="text-2xl font-bold mb-4">Project 3</h2>
+              <h2 className="text-2xl font-bold mb-4">99 PLIT</h2>
               <p className="text-gray-600 mb-6">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
