@@ -1,13 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import img from "../assets/img/yellow-bg.png";
 
 export const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="relative w-11/12 m-auto mb-20">
-      <header>
-        <div className="flex items-center justify-between">
-          <p className="text-[17px]">Alibakiev Hanif</p>
-          <div className="flex gap-10">
+      <header
+        className={`fixed top-0 left-0 w-full z-50 shadow-md transition-all duration-300 ${
+          isScrolled ? "bg-white" : "bg-transparent"
+        }`}
+      >
+        <div className="flex items-center justify-between p-4">
+          <p className="text-[20px]">Alibakiev Hanif</p>
+          <div className="flex text-[20px] gap-10">
             <p>About</p>
             <p>Project</p>
             <p>Contact</p>

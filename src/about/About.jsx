@@ -11,7 +11,7 @@ export const About = () => {
           is Alibakiev Hanif
         </h1>
         <div className="leading-8">
-          <p className="w-4/12 text-[20px] mt-5">
+          <p className="w-4/12 text-[20px] mt-5 opacity-75">
             Short text with details about you, what you do or your professional
             career. You can add more information on the about page.{" "}
           </p>
@@ -30,7 +30,7 @@ export const About = () => {
         <p className="text-4xl font-bold w-full flex justify-center">Skills</p>
         <div className="w-45 h-2 rounded-lg bg-[#35FDB7]  "></div>
       </section>
-      <div className=" flex  ">
+      <div className=" flex  gap-10">
         <section>
           <div className="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
@@ -147,7 +147,7 @@ export const About = () => {
         <section>
           <div className="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto p-6">
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
-              <h2 className="text-2xl font-bold mb-4">Priject 3</h2>
+              <h2 className="text-2xl font-bold mb-4">Project 3</h2>
               <p className="text-gray-600 mb-6">
                 {" "}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
