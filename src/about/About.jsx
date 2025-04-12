@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../assets/img/yellow-bg.png";
 import dude from "../assets/img/dude.png";
 import hahatone from "../assets/img/hahaton.png";
 import plit from "../assets/img/plit.png";
