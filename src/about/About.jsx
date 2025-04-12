@@ -89,7 +89,7 @@ export const About = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                src="https://cdn.coursehunter.net/category/javascript.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="JS"
                 className="object-cover w-full h-40 md:h-full"
               />
